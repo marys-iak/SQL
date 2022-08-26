@@ -1,4 +1,4 @@
-# TASKS
+## TASKS
 
 ### Placements
 ##### You are given three tables: Students, Friends and Packages. 
@@ -39,3 +39,17 @@ are the respective minimum and maximum values of Western Longitude (LONG_W) in S
 
 Query the Euclidean Distance between points
 and and format your answer to display 4 decimal digits.
+
+### Symmetric pairs
+You are given a table, Functions, containing two columns: X and Y.
+Two pairs (X1, Y1) and (X2, Y2) are said to be symmetric pairs if X1 = Y2 and X2 = Y1.
+
+Write a query to output all such symmetric pairs in ascending order by the value of X. List the rows such that X1 ≤ Y1. 
+
+### Top earners
+We define an employee's total earnings to be their monthly salary * months worked, and the maximum total earnings to be the maximum total earnings for any employee in the Employee table. Write a query to find the maximum total earnings for all employees as well as the total number of employees who have maximum total earnings. Then print these values as space-separated integers.
+
+### Ollivander's inventory
+Harry Potter and his friends are at Ollivander's with Ron, finally replacing Charlie's old broken wand.
+
+Hermione decides the best way to choose is by determining the minimum number of gold galleons needed to buy each non-evil wand of high power and age. Write a query to print the id, age, coins_needed, and power of the wands that Ron's interested in, sorted in order of descending power. If more than one wand has same power, sort the result in order of descending age.
